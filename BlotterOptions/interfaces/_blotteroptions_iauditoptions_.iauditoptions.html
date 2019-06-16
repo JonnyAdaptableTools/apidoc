@@ -1,0 +1,328 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>IAuditOptions | adaptableblotter</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">adaptableblotter</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="../modules/_blotteroptions_iauditoptions_.html">&quot;BlotterOptions/IAuditOptions&quot;</a>
+				</li>
+				<li>
+					<a href="_blotteroptions_iauditoptions_.iauditoptions.html">IAuditOptions</a>
+				</li>
+			</ul>
+			<h1>Interface IAuditOptions</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Options for managing Audit Log
+							​​Note: Adaptable Blotter has no knowledge of which messages Audit Log is given and where they are sent.
+							And it has no ability to access this data: any data sent to the Audit Log is known only to our users, and is accessible only by them.​​
+							Each Audit event can be sent to an HTTP stream, the Console or fired as an Audit Event (or any combination thereor)
+						The default for each option for each Audit Type is false - meaning that audit is only triggered if you set some values to true</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">IAuditOptions</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_blotteroptions_iauditoptions_.iauditoptions.html#auditcelledits" class="tsd-kind-icon">audit<wbr>Cell<wbr>Edits</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_blotteroptions_iauditoptions_.iauditoptions.html#auditfunctionevents" class="tsd-kind-icon">audit<wbr>Function<wbr>Events</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_blotteroptions_iauditoptions_.iauditoptions.html#auditinternalstatechanges" class="tsd-kind-icon">audit<wbr>Internal<wbr>State<wbr>Changes</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_blotteroptions_iauditoptions_.iauditoptions.html#auditlogssendinterval" class="tsd-kind-icon">audit<wbr>Logs<wbr>Send<wbr>Interval</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_blotteroptions_iauditoptions_.iauditoptions.html#audituserstatechanges" class="tsd-kind-icon">audit<wbr>User<wbr>State<wbr>Changes</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_blotteroptions_iauditoptions_.iauditoptions.html#pinginterval" class="tsd-kind-icon">ping<wbr>Interval</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="auditcelledits" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> audit<wbr>Cell<wbr>Edits</h3>
+					<div class="tsd-signature tsd-kind-icon">audit<wbr>Cell<wbr>Edits<span class="tsd-signature-symbol">:</span> <a href="_blotteroptions_iauditoptions_.iauditdestinationoptions.html" class="tsd-signature-type">IAuditDestinationOptions</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in BlotterOptions/IAuditOptions.ts:14</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Whether to audit cell edits
+								These include any edits made to the data in the grid but not outside (e.g. not a ticking stream)
+							Default Value: false</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="auditfunctionevents" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> audit<wbr>Function<wbr>Events</h3>
+					<div class="tsd-signature tsd-kind-icon">audit<wbr>Function<wbr>Events<span class="tsd-signature-symbol">:</span> <a href="_blotteroptions_iauditoptions_.iauditdestinationoptions.html" class="tsd-signature-type">IAuditDestinationOptions</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in BlotterOptions/IAuditOptions.ts:19</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Whether to audit function events in the Blotter
+							(e.g. &#39;Advanced Search Selected&#39;, &#39;Smart Edit Applied&#39; etc.)</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="auditinternalstatechanges" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> audit<wbr>Internal<wbr>State<wbr>Changes</h3>
+					<div class="tsd-signature tsd-kind-icon">audit<wbr>Internal<wbr>State<wbr>Changes<span class="tsd-signature-symbol">:</span> <a href="_blotteroptions_iauditoptions_.iauditdestinationoptions.html" class="tsd-signature-type">IAuditDestinationOptions</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in BlotterOptions/IAuditOptions.ts:32</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Whether to audit changes to the Adaptable Blotter&#39;s state
+								Includes things like which popups are active, what are the selected cells
+								Can potentially be very verbose
+							Default Value: false</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="auditlogssendinterval" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> audit<wbr>Logs<wbr>Send<wbr>Interval</h3>
+					<div class="tsd-signature tsd-kind-icon">audit<wbr>Logs<wbr>Send<wbr>Interval<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in BlotterOptions/IAuditOptions.ts:43</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The &#39;batch&#39; time (in seconds) for pushing Audit Log messages if using the HTTP Channel
+							Default Value: 1</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="audituserstatechanges" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> audit<wbr>User<wbr>State<wbr>Changes</h3>
+					<div class="tsd-signature tsd-kind-icon">audit<wbr>User<wbr>State<wbr>Changes<span class="tsd-signature-symbol">:</span> <a href="_blotteroptions_iauditoptions_.iauditdestinationoptions.html" class="tsd-signature-type">IAuditDestinationOptions</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in BlotterOptions/IAuditOptions.ts:25</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Whether to audit all changes to the User State
+								Includes any objects (e.g. Conditional Styles) created, edited or deleted
+							Default Value: false</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="pinginterval" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> ping<wbr>Interval</h3>
+					<div class="tsd-signature tsd-kind-icon">ping<wbr>Interval<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in BlotterOptions/IAuditOptions.ts:38</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>How often (in seconds) the Audit Log should ping to check that the listening service is up and running (if its been set)
+								Note: the Audit Log will only ping if at least one of the 4 audit optios has &#39;auditToHttpChannel&#39; as set to true
+							Default Value: 60</p>
+						</div>
+					</div>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+					<li class="current tsd-kind-external-module">
+						<a href="../modules/_blotteroptions_iauditoptions_.html">"<wbr>Blotter<wbr>Options/IAudit<wbr>Options"</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+					<li class=" tsd-kind-interface tsd-parent-kind-external-module">
+						<a href="_blotteroptions_iauditoptions_.iauditdestinationoptions.html" class="tsd-kind-icon">IAudit<wbr>Destination<wbr>Options</a>
+					</li>
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-interface tsd-parent-kind-external-module">
+						<a href="_blotteroptions_iauditoptions_.iauditoptions.html" class="tsd-kind-icon">IAudit<wbr>Options</a>
+						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_blotteroptions_iauditoptions_.iauditoptions.html#auditcelledits" class="tsd-kind-icon">audit<wbr>Cell<wbr>Edits</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_blotteroptions_iauditoptions_.iauditoptions.html#auditfunctionevents" class="tsd-kind-icon">audit<wbr>Function<wbr>Events</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_blotteroptions_iauditoptions_.iauditoptions.html#auditinternalstatechanges" class="tsd-kind-icon">audit<wbr>Internal<wbr>State<wbr>Changes</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_blotteroptions_iauditoptions_.iauditoptions.html#auditlogssendinterval" class="tsd-kind-icon">audit<wbr>Logs<wbr>Send<wbr>Interval</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_blotteroptions_iauditoptions_.iauditoptions.html#audituserstatechanges" class="tsd-kind-icon">audit<wbr>User<wbr>State<wbr>Changes</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_blotteroptions_iauditoptions_.iauditoptions.html#pinginterval" class="tsd-kind-icon">ping<wbr>Interval</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>
